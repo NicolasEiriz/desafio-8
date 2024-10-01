@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Comida Saludable</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body id="formulario">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">
+                <img src="./image/logo.png" alt="Comida Saludable">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    <a class="nav-link" href="#">Nosotros</a>
+                    <a class="nav-link" href="#">Contacto</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+        <div class="row align-items-center g-lg-5 py-5">
+          <div class="col-lg-7 text-center text-lg-start">
+            <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DETALLES DEL PEDIDO</font></font></h1>
+            <p class="col-lg-10 fs-4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">(Acá debería de aparecer lo que pidió y la suma total de lo que debe de pagar).</font></font></p>
+          </div>
+          <div class="col-md-10 mx-auto col-lg-5">
+            
+                <h2>Complete sus datos para realizar pedido</h2>
+                <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
+                    <div class="row g-2 align-items-center">
+                        <label for="nombre" class="col-form-label">Nombre</label>
+                    <div class="col-12">
+                        <input type="text" class="form-control" id="nombre" aria-describedby="nombre">
+                    </div>
+                </div>
+                    <div class="row g-2 align-items-center">
+                        <label for="direccion" class="col-form-label">Dirección</label>
+                        <div class="col-12">
+                            <input type="text" class="form-control" id="direccion">
+                    </div>
+                        
+                    </div>
+                    <div class="row g-2 align-items-center">
+                        <label for="telefono" class="col-form-label">Teléfono</label>
+                        <div class="col-12">
+                            <input type="number" class="form-control" id="telefono">
+                        </div>
+                        
+                    </div>
+                    <div class="row g-2 align-items-center">
+                        <label for="email" class="col-form-label">Email</label>
+                        <div class="col-12">
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                    </div>
+                        
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Recuérdame</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+          </div>
+        </div>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>     
+</body>
+</html>

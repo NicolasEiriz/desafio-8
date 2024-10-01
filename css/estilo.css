@@ -1,0 +1,12 @@
+#inicio {
+    background-image: url(/image/IMG2.jpg);
+}
+
+#formulario {
+    background-color: rgba(0, 0, 0, 0.471);
+}
+
+.container-fluid img {
+    width: 100px;
+    height: 100px;
+}
