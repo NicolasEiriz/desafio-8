@@ -1,0 +1,37 @@
+body{
+  background-image: url(./background.jpg);
+  background-size: cover;
+  }
+
+.formulario-pedido{
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.9); 
+  padding: 20px;
+  border-radius: 8px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+  padding: 15px;
+}
+
+fieldset{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.botones{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 5px;
+}

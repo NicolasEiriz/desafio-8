@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Pedido de Comida</title>
+</head>
+<body>
+
+  <div class="formulario-pedido">
+    <form id="pedidoForm">
+
+      <fieldset id="datos">
+        <legend>Datos personales</legend>
+        <label for="nombre-usuario">Nombre completo</label>
+        <input type="text" name="nombre-usuario" id="nombre-usuario" required>
+        <label for="direccion-entrega">Dirección de la entrega</label>
+        <input type="text" name="direccion-entrega" id="direccion-entrega" required>
+        <label for="email-usuario">Indique su email</label>
+        <input type="email" name="email-usuario" id="email-usuario" required>
+        <label for="telefono-usuario">Teléfono de contacto</label>
+        <input type="tel" name="telefono-usuario" id="telefono-usuario" required>
+      </fieldset>
+
+      <fieldset id="fieldset-pedido">
+        <legend>Pedido</legend>
+
+        <fieldset class="producto pizzas">
+          <legend>Pizzas</legend>
+          <p><input type="checkbox" name="napolitana" value="napolitana" class="pizza"> Napolitana - $5000</p>
+          <p><input type="checkbox" name="fugazzeta" value="fugazzeta" class="pizza"> Fugazzeta - $6000</p>
+          <p><input type="checkbox" name="muzzarella" value="muzzarella" class="pizza"> Muzzarella - $4000</p>
+          <p><input type="checkbox" name="provolone" value="provolone" class="pizza"> Provolone - $7500</p>
+        </fieldset>
+
+        <fieldset class="producto tacos">
+          <legend>Tacos</legend>
+          <p><input type="checkbox" name="carne" value="carne" class="taco"> Carne - $3000</p>
+          <p><input type="checkbox" name="pollo" value="pollo" class="taco"> Pollo - $3000</p>
+          <p><input type="checkbox" name="mixto" value="mixto" class="taco"> Mixto - $3500</p>
+        </fieldset>
+
+      </fieldset>
+
+      <button type="submit" id="realizar-pedido">Realizar pedido</button>
+      <button type="reset">Limpiar formulario</button>
+    </form>
+  </div>
+
+  <script src="./main.js"></script>
+</body>
+</html>
